@@ -39,8 +39,8 @@ public class Splash_screen extends AppCompatActivity {
 
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
-        gifload=(ImageView)findViewById(R.id.gifload);
-        Glide.with(this).load(R.raw.timerwatch).into(gifload);
+//        gifload=(ImageView)findViewById(R.id.gifload);
+//        Glide.with(this).load(R.raw.timerwatch).into(gifload);
 
         if(Nelsoft_UtilsMAIN.isOnline(Splash_screen.this)){
             loadAd();

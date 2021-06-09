@@ -10,5 +10,6 @@
         android:id="@+id/gifload"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:scaleType="fitXY"></ImageView>
+        android:padding="30dp"
+        android:src="@drawable/allinonelogo"></ImageView>
 </androidx.constraintlayout.widget.ConstraintLayout>
